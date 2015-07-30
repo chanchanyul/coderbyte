@@ -1,5 +1,6 @@
 def VowelCount(str)
 
+  str = str.downcase
   return str.scan(/[aeiou]/).count
          
 end
